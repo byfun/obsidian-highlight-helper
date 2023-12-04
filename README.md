@@ -3,7 +3,7 @@
 This plugin copies all highlights on the open note in [Obsidian](https://obsidian.md/).
 
 ## Screenshots
-![](images/settings.jpg)
+![](images/setting.jpg)
 
 ![](images/use.gif)
 
