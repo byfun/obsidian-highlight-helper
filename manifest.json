@@ -1,0 +1,11 @@
+{
+	"id": "highlight-helper",
+	"name": "Highlight Helper",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Helper to collect highlight in Obsidian",
+	"author": "Chongmyung Park",
+	"authorUrl": "https://github.com/byfun/",
+	"fundingUrl": "https://ko-fi.com/byfun",
+	"isDesktopOnly": false
+}
