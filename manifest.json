@@ -1,9 +1,9 @@
 {
 	"id": "highlight-helper",
 	"name": "Highlight Helper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Helper to collect highlight in Obsidian",
+	"description": "Helper to copy and paste highlights",
 	"author": "Chongmyung Park",
 	"authorUrl": "https://github.com/byfun/",
 	"fundingUrl": "https://ko-fi.com/byfun",

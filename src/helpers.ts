@@ -1,7 +1,7 @@
-import { Notice } from "obsidian";
+import { App, Notice } from "obsidian";
 import { HighlightMenuSetting } from "./main";
 
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 const NOTICE_TIMEOUT = 2400;
 
 export function dbg(...args: any[]) {
@@ -10,7 +10,8 @@ export function dbg(...args: any[]) {
 	}
 }
 
-export async function copyMarks(setting: HighlightMenuSetting) {
+export async function copyMarks(app: App, setting: HighlightMenuSetting) {
+	
 	const mdFile = app.workspace.getActiveFile();
 	if (!mdFile) {
 		new Notice("Active note not found", NOTICE_TIMEOUT);

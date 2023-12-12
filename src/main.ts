@@ -33,16 +33,16 @@ export default class HighlightHelper extends Plugin {
 			"clipboard-list",
 			"Copy Marks",
 			(evt: MouseEvent) => {
-				copyMarks(this.settings);
+				copyMarks(this.app, this.settings);
 			}
 		);
 		ribbonIconEl.addClass("hh-btn-copy");
 
 		this.addCommand({
-			id: "hh-copy-command",
+			id: "copy-command",
 			name: "Copy Marks",
 			callback: () => {
-				copyMarks(this.settings);
+				copyMarks(this.app, this.settings);
 			},
 		});
 

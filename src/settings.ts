@@ -27,8 +27,7 @@ export class HHSettingTab extends PluginSettingTab {
 						await this.plugin.saveSettings();
 					})
 					.then((text) => {
-						text.inputEl.style.width = "300px";
-						text.inputEl.style.height = "80px";
+						text.inputEl.className = "regex-patterns";
 					});
 			});
 
@@ -45,7 +44,7 @@ export class HHSettingTab extends PluginSettingTab {
 						await this.plugin.saveSettings();
 					})
 					.then((text) => {
-						text.inputEl.style.width = "300px";
+						text.inputEl.className = "header-text";
 					})
 			);
 

@@ -1,7 +1,7 @@
 {
 	"name": "highlight-helper",
-	"version": "1.0.0",
-	"description": "Helper to collect highlight in Obsidian",
+	"version": "1.0.1",
+	"description": "Helper to copy and paste highlights in Obsidian",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
